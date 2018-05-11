@@ -1,0 +1,17 @@
+package Moto;
+
+public class HeavyMotorcycle extends ClassicMotorcycle  {
+
+    String model = "Ural Dark Force";
+    int weight = 318;
+    double fuelCapacity = 7.5;
+
+    @Override
+    public String noise() {
+        return "My noise is loud.";
+    }
+
+    public void bearing(){
+        System.out.println("I can carry a large load.");
+    }
+}
