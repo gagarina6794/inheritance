@@ -2,10 +2,10 @@ package Moto;
 
 public class ClassicMotorcycle extends Motorcycle {
 
-    String model = "Jawa 350 Typ 638";
-    String color = "black";
-    int weight = 155;
-    double fuelCapacity = 3.4;
+    public String model = "Jawa 350 Typ 638";
+    public String color = "black";
+    public int weight = 155;
+    public double fuelCapacity = 3.4;
 
     @Override
     public boolean SUV() {

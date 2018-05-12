@@ -2,10 +2,10 @@ package Moto;
 
 public class MotorBike extends Motorcycle {
 
-    String model = "Suzuki RM-Z450";
-    String color = "red";
-    int weight = 112;
-    double fuelCapacity = 6.3;
+    public String model = "Suzuki RM-Z450";
+    public String color = "red";
+    public int weight = 112;
+    public double fuelCapacity = 6.3;
 
     @Override
     public boolean SUV() {

@@ -2,10 +2,10 @@ package Moto;
 
 public abstract class Motorcycle {
 
-    String model;
-    String color;
-    double weight;
-    double fuelCapacity;
+    protected String model;
+    protected String color;
+    protected double weight;
+    protected double fuelCapacity;
 
     protected abstract boolean SUV();
     protected abstract void coolingSystem();

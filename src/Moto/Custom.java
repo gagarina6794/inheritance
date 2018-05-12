@@ -2,9 +2,9 @@ package Moto;
 
 public class Custom extends ClassicMotorcycle {
 
-    String model = "Harley Davidson Street Glide Moto.Custom";
-    int weight = 361;
-    double fuelCapacity = 17.5;
+    public String model = "Harley Davidson Street Glide Moto.Custom";
+    public int weight = 361;
+    public double fuelCapacity = 17.5;
 
     @Override
     public String noise() {
